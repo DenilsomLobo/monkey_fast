@@ -1,0 +1,29 @@
+{
+  "name": "monkey-fast",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monkey Fast — jogo 2D side-scroller de cipós (Phaser 3 + Vite)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "assets": "node scripts/optimize-assets.mjs && node scripts/build-sprites.mjs && node scripts/generate-art.mjs",
+    "sync:functions": "node scripts/sync-functions.mjs",
+    "deploy": "firebase deploy",
+    "emulators": "npm run sync:functions && firebase emulators:start",
+    "sprites": "node scripts/build-sprites.mjs",
+    "art": "node scripts/generate-art.mjs"
+  },
+  "dependencies": {
+    "firebase": "^12.4.0",
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5",
+    "vite": "^7.3.7",
+    "vitest": "^3.2.7"
+  }
+}

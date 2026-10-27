@@ -1,0 +1,16 @@
+rules_version = '2';
+
+// O navegador só pode LER o ranking. Toda escrita passa pelas Cloud Functions
+// (Admin SDK ignora estas regras), que validam o resultado antes de gravar.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /scores/{scoreId} {
+      allow read: if true;
+      allow create, update, delete: if false;
+    }
+    // runs (partidas em andamento) e users (limite de frequência): só o servidor
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

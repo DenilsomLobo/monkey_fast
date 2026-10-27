@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+functions/node_modules/
+functions/shared/
+.firebase/
+.firebaserc
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+*.log
+.DS_Store
+coverage/
+.tmp/
+collectible-audit.json

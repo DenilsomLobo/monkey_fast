@@ -1,0 +1,26 @@
+{
+  "_leia": "Medidas das artes do cenário (public/assets/environment), em PIXELS DA PRÓPRIA IMAGEM. Se trocar um PNG por outro com enquadramento diferente, ajuste os números dele aqui. Tamanho da imagem não importa: o jogo escala sozinho.",
+  "trees": {
+    "_leia": "branchTopY = altura (y) do topo do galho onde se anda; branchX1..branchX2 = trecho do galho onde se anda; trunkX1..trunkX2 = largura do tronco na borda de baixo da imagem (o tronco continua para baixo com trunk.png); trunkFaceX = lado do tronco onde a onça escala (só na final); fadeBottom = quantos pixels da borda de baixo somem em degradê.",
+    "start": { "branchTopY": 768, "branchX1": 720, "branchX2": 1260, "trunkX1": 150, "trunkX2": 667, "fadeBottom": 140 },
+    "final": { "branchTopY": 634, "branchX1": 210, "branchX2": 790, "trunkX1": 975, "trunkX2": 1536, "trunkFaceX": 1000, "fadeBottom": 140 }
+  },
+  "canopy": {
+    "_leia": "displayWidth = largura na tela (px do mundo) da copa que segura o cipó. O ponto onde o cipó se prende é calculado sozinho (meio da massa de folhas).",
+    "displayWidth": 720
+  },
+  "trunk": {
+    "_leia": "barkX1..barkX2 = onde está a casca na largura da imagem (sem as folhas que saem dos lados).",
+    "barkX1": 140,
+    "barkX2": 790
+  },
+  "tiles": {
+    "_leia": "Imagens que se repetem: o jogo mistura as bordas para esconder a emenda. blend = fração da imagem usada na mistura.",
+    "sky": { "axis": "x", "blend": 0.15 },
+    "mountains": { "axis": "x", "blend": 0.15 },
+    "jungle_far": { "axis": "x", "blend": 0.15 },
+    "jungle_mid": { "axis": "x", "blend": 0.15 },
+    "foreground": { "axis": "x", "blend": 0.12 },
+    "trunk": { "axis": "y", "blend": 0.15 }
+  }
+}
