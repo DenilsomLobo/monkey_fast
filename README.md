@@ -147,11 +147,7 @@ Consulte também a [documentação técnica](docs/DEVELOPMENT.md) para ajustes d
 
 ## Jogue online
 
-🎮 **Link para jogar:** _em breve — espaço reservado para o endereço da versão publicada._
-
-<!-- Substitua a linha acima por: 🎮 [Jogar Monkey Fast](URL_DO_JOGO) -->
-
----
+🎮 **Link para jogar:** 🎮 [Jogar Monkey Fast](https://portifolio-denilsom-lobo.web.app/games/monkey_fast/play/).
 
 ## Autor
 
