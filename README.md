@@ -147,7 +147,7 @@ Consulte também a [documentação técnica](docs/DEVELOPMENT.md) para ajustes d
 
 ## Jogue online
 
-🎮 **Link para jogar:** 🎮 [Jogar Monkey Fast](https://portifolio-denilsom-lobo.web.app/games/monkey_fast/play/).
+🎮 **Link para jogar:** [Jogar Monkey Fast](https://portifolio-denilsom-lobo.web.app/games/monkey_fast/play/).
 
 ## Autor
 
